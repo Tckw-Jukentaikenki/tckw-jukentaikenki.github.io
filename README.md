@@ -1,1 +1,1 @@
-# Jukentaikenki
+# 立川高校 受験体験記
