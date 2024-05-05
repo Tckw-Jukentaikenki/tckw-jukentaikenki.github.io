@@ -1,0 +1,55 @@
+body{ 
+    margin: 0px ;
+    display: grid;
+    width: 99vw;
+    height: 100vh;
+    grid-template-areas: "a a" "b c" "d d";
+    grid-template-columns: 14em 1fr;
+    grid-template-rows: 5em 1fr 3em
+}
+header {
+    grid-area: a;
+    background: rgb(165, 154, 202);
+    padding: 0.1em;
+    text-align: center;
+}
+aside  {
+    grid-area: b;
+    background: rgb(165, 154, 202);
+    padding: 0.2em;
+    text-align:center;
+    border: 2px solid white;
+}
+section { 
+    grid-area: c;
+    background: rgb(165, 154, 202);
+    padding: 1em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+footer{
+    grid-area: d;
+    background-color: rgb(165, 154, 202);
+    text-align: right;
+}
+.mokuzi{
+    text-align:left;
+    margin-left: 10px;
+    border: 1px solid;
+    margin-right: 10px;
+}
+a:link, a:visited, a:active {
+    color: blue;
+}
+.mokuzi > a{
+    margin-left: 10px;
+}
+.b{
+    color: blue;
+}
+address > p{padding-right: 10px;}
+h2{text-align: center;}
+.udon{text-align: right;}
+.tenkai > a{margin-left: 10px;}
+.tenka > a{padding-left: 25px;}
