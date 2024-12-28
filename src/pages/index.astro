@@ -1,0 +1,49 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+	<style>
+		h1{
+			text-align: center;
+		}
+		.title{
+			font-size: 2.5em;
+		}
+		p{
+			margin-bottom: 1em;
+			padding: 0;
+		}
+	</style>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1 class="title">立川高校 受験体験記</h1>
+			<p>
+			立川高校の受験体験記を掲載しています。
+			</p>
+			<h2>掲載しているもの(予定含む)</h2>
+			<ul>
+				<li>アーカイブ</li>
+			</ul>
+			<h2>リンク集</h2>
+			<h2>このページの技術スタック</h2>
+			<ul>
+				<li><a href="https://astro.build/" target="_blank">Astro.js</a></li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>TypeScript</li>
+			</ul>
+			<h2>連絡先</h2>
+		</main>
+		<Footer />
+	</body>
+</html>
