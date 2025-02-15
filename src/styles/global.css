@@ -1,10 +1,4 @@
 /*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
-/*
   やること・編集の方針・案
   1.フォントをいい感じに
 　2.サイドバーのデザイン考える
@@ -12,7 +6,6 @@
 　4.色などのデザイン考えてcss - hover色付けしようかな
 　5.READMEをいい感じに
 */
-
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -38,6 +31,7 @@
 	font-style: normal;
 	font-display: swap;
 }
+/* ここから上はいじらない */
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
