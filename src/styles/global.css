@@ -63,19 +63,24 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+/*  font-size: 3.052em;*/
+	font-size: 6.104vw;
 }
 h2 {
-	font-size: 1.5em;
+/*	font-size: 1.5em;*/
+	font-size: 3vw;
 }
 h3 {
-	font-size: 1em;
+/*	font-size: 1em;*/
+	font-size: 2vw;
 }
 h4 {
-	font-size: 1.563em;
+/*	font-size: 1.563em;*/
+	font-size: 3.126vw;
 }
 h5 {
-	font-size: 1.25em;
+/*	font-size: 1.25em;*/
+	font-size: 2.5vw;
 }
 strong,
 b {
@@ -132,11 +137,33 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+/*		font-size: 18px;*/
+		font-size: 4vw;
 	}
 	main {
 		padding: 1em;
+		padding-top: 5em;
 	}
+	h1 {
+		/*  font-size: 3.052em;*/
+			font-size: 9.156vw;
+	}
+	h2 {
+	/*	font-size: 1.5em;*/
+		font-size: 4.5vw;
+	}
+	h3 {
+	/*	font-size: 1em;*/
+		font-size: 3vw;
+	}
+	h4 {
+	/*	font-size: 1.563em;*/
+		font-size: 4.689vw;
+	}
+	h5 {
+	/*	font-size: 1.25em;*/
+		font-size: 3.75vw;
+	}	
 }
 
 .sr-only {
