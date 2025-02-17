@@ -1,11 +1,4 @@
-/*
-  やること・編集の方針・案
-  1.フォントをいい感じに
-　2.サイドバーのデザイン考える
-　3.フォントサイズの調整
-　4.色などのデザイン考えてcss - hover色付けしようかな
-　5.READMEをいい感じに
-*/
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -64,11 +57,11 @@ h6 {
 }
 h1 {
 /*  font-size: 3.052em;*/
-	font-size: 6.104vw;
+	font-size: 4.0vw;
 }
 h2 {
 /*	font-size: 1.5em;*/
-	font-size: 3vw;
+	font-size: 2.250vw;
 }
 h3 {
 /*	font-size: 1em;*/
@@ -147,7 +140,7 @@ hr {
 	}
 	h1 {
 		/*  font-size: 3.052em;*/
-			font-size: 9.156vw;
+			font-size: 5.0vw;
 	}
 	h2 {
 	/*	font-size: 1.5em;*/
