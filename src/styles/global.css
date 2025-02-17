@@ -90,7 +90,8 @@ a {
 	color: var(--accent);
 }
 a:hover {
-	color: var(--accent);
+	color: #af00af;
+	text-decoration: none;
 }
 p {
 	margin-bottom: 1em;
