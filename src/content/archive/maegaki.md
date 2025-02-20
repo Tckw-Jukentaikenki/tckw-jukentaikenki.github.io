@@ -1,6 +1,6 @@
 ---
-title: '74期より'
-description: 'メッセージ'
+title: '受験体験記の発行に寄せて'
+description: 'まえがき'
 heroImage: '/tachiko.png'
 ---
 
