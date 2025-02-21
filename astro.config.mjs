@@ -9,7 +9,8 @@ import node from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://tckw-jukentaikenki.github.io',
-    integrations: [mdx(), sitemap(), auth()],
+    // integrations: [mdx(), sitemap(), auth()],
+    integrations: [mdx(), sitemap()],
     adapter: node({
         mode: 'standalone',
     }),
