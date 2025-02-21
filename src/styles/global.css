@@ -139,12 +139,14 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 }
-th, td {
+th{
 	border: 1px solid black;
 	padding: 8px;
 	text-align: center;
 }
-.leftcell {
+td {
+	border: 1px solid black;
+	padding: 8px;
 	text-align: left;
 }
 @media (max-width: 720px) {
