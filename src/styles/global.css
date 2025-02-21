@@ -1,11 +1,4 @@
-/*
-  やること・編集の方針・案
-  1.フォントをいい感じに
-　2.サイドバーのデザイン考える
-　3.フォントサイズの調整
-　4.色などのデザイン考えてcss - hover色付けしようかな
-　5.READMEをいい感じに
-*/
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -90,7 +83,8 @@ a {
 	color: var(--accent);
 }
 a:hover {
-	color: var(--accent);
+	color: #af00af;
+	text-decoration: none;
 }
 p {
 	margin-bottom: 1em;
@@ -151,11 +145,33 @@ td {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+/*		font-size: 18px;*/
+		font-size: 4vw;
 	}
 	main {
 		padding: 1em;
+		padding-top: 5em;
 	}
+	h1 {
+		/*  font-size: 3.052em;*/
+			font-size: 5.0vw;
+	}
+	h2 {
+	/*	font-size: 1.5em;*/
+		font-size: 4.5vw;
+	}
+	h3 {
+	/*	font-size: 1em;*/
+		font-size: 3vw;
+	}
+	h4 {
+	/*	font-size: 1.563em;*/
+		font-size: 4.689vw;
+	}
+	h5 {
+	/*	font-size: 1.25em;*/
+		font-size: 3.75vw;
+	}	
 }
 
 .sr-only {
