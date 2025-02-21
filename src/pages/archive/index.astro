@@ -84,7 +84,7 @@ const posts = (await getCollection('archive'));
 							<li>
 								<a href={`/archive/${post.id}/`}>
 									<img width={360} height={180} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
+									<h4 class="title post">{post.data.title}</h4>
 								</a>
 							</li>
 						))
