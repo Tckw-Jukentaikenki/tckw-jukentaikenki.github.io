@@ -35,7 +35,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 2.5vw;
+	font-size: 2.0vw;
 	line-height: 1.7;
 }
 main {
@@ -57,23 +57,23 @@ h6 {
 }
 h1 {
 /*  font-size: 3.052em;*/
-	font-size: 5vw;
+	font-size: 4.00vw;
 }
 h2 {
 /*	font-size: 1.5em;*/
-	font-size: 4vw;
+	font-size: 2.2500vw;
 }
 h3 {
 /*	font-size: 1em;*/
-	font-size: 3vw;
+	font-size: 2.0vw;
 }
 h4 {
 /*	font-size: 1.563em;*/
-	font-size: 2.75vw;
+	font-size: 3.1260vw;
 }
 h5 {
 /*	font-size: 1.25em;*/
-	font-size: 2.5vw;
+	font-size: 2.50vw;
 }
 strong,
 b {
