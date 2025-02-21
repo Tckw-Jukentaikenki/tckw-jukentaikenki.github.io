@@ -59,9 +59,6 @@ h1 {
 /*  font-size: 3.052em;*/
 	font-size: 4.00vw;
 }
-.title{
-	font-size: 1.7vw;
-}
 h2 {
 /*	font-size: 1.5em;*/
 	font-size: 2.2500vw;
@@ -72,11 +69,17 @@ h3 {
 }
 h4 {
 /*	font-size: 1.563em;*/
-	font-size: 1.75vw;
+	font-size: 1.7vw;
 }
 h5 {
 /*	font-size: 1.25em;*/
 	font-size: 1.5vw;
+}
+.title{
+	font-size: 1.7vw;
+}
+.post{
+	font-size: 3.0vw;
 }
 strong,
 b {
@@ -88,6 +91,9 @@ a {
 a:hover {
 	color: #af00af;
 	text-decoration: none;
+}
+a:checked{
+	color: #af00af;
 }
 p {
 	margin-bottom: 1em;
@@ -101,9 +107,6 @@ textarea {
 }
 input {
 	font-size: 16px;
-}
-table {
-	width: 100%;
 }
 img {
 	max-width: 100%;
@@ -149,7 +152,7 @@ td {
 @media (max-width: 720px) {
 	body {
 /*		font-size: 18px;*/
-		font-size: 4vw;
+		font-size: 3.0vw;
 	}
 	main {
 		padding: 1em;
@@ -159,25 +162,28 @@ td {
 		/*  font-size: 3.052em;*/
 			font-size: 5.0vw;
 	}
-	.title{
-		font-size: 2.0vw;
-	}
 	h2 {
 	/*	font-size: 1.5em;*/
 		font-size: 4.5vw;
 	}
 	h3 {
 	/*	font-size: 1em;*/
-		font-size: 3.5vw;
+		font-size: 4.0vw;
 	}
 	h4 {
 	/*	font-size: 1.563em;*/
-		font-size: 3.0vw;
+		font-size: 3.5vw;
 	}
 	h5 {
 	/*	font-size: 1.25em;*/
-		font-size: 2.5vw;
+		font-size: 3.0vw;
 	}	
+	.title{
+		font-size: 2.0vw;
+	}
+	.post{
+		font-size: 4.5vw;
+	}
 }
 
 .sr-only {
