@@ -1,11 +1,4 @@
-/*
-  やること・編集の方針・案
-  1.フォントをいい感じに
-　2.サイドバーのデザイン考える
-　3.フォントサイズの調整
-　4.色などのデザイン考えてcss - hover色付けしようかな
-　5.READMEをいい感じに
-*/
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -42,7 +35,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	font-size: 2.0vw;
 	line-height: 1.7;
 }
 main {
@@ -63,19 +56,24 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+/*  font-size: 3.052em;*/
+	font-size: 4.00vw;
 }
 h2 {
-	font-size: 1.5em;
+/*	font-size: 1.5em;*/
+	font-size: 2.2500vw;
 }
 h3 {
-	font-size: 1em;
+/*	font-size: 1em;*/
+	font-size: 2.0vw;
 }
 h4 {
-	font-size: 1.563em;
+/*	font-size: 1.563em;*/
+	font-size: 3.1260vw;
 }
 h5 {
-	font-size: 1.25em;
+/*	font-size: 1.25em;*/
+	font-size: 2.50vw;
 }
 strong,
 b {
@@ -85,7 +83,8 @@ a {
 	color: var(--accent);
 }
 a:hover {
-	color: var(--accent);
+	color: #af00af;
+	text-decoration: none;
 }
 p {
 	margin-bottom: 1em;
@@ -130,13 +129,49 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th{
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+/*		font-size: 18px;*/
+		font-size: 4vw;
 	}
 	main {
 		padding: 1em;
+		padding-top: 5em;
 	}
+	h1 {
+		/*  font-size: 3.052em;*/
+			font-size: 5.0vw;
+	}
+	h2 {
+	/*	font-size: 1.5em;*/
+		font-size: 4.5vw;
+	}
+	h3 {
+	/*	font-size: 1em;*/
+		font-size: 3vw;
+	}
+	h4 {
+	/*	font-size: 1.563em;*/
+		font-size: 4.689vw;
+	}
+	h5 {
+	/*	font-size: 1.25em;*/
+		font-size: 3.75vw;
+	}	
 }
 
 .sr-only {
