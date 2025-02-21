@@ -3,6 +3,8 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+// const user = await Astro.locals.user;
+// if (!user) return Astro.redirect("/login", 302);
 ---
 
 <!doctype html>
@@ -46,12 +48,15 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<p>
 			立川高校の受験体験記を掲載しています。
 			</p>
-			<h2>掲載しているもの(予定含む)</h2>
+			<h2>掲載しているもの</h2>
 			<ul>
 				<li><a href="/archive/data/" target="_blank">受験データ</a></li>
 				<li><a href="/archive/siboko-sinro-nenkan/" target="_blank">志望校・進路と年間の勉強</a></li>
-				<li><a href="/archive/special/" target="_blank">特殊な受験形態について</a></li>
-				<li><a href="/archive/ashiato/" target="_blank">受験の足跡</a></li>
+				<li><a href="/archive/specia;/" target="_blank">特殊な受験形態について</a></li>
+				<li><a href="/archive/sikoho/" target="_blank">受験で身に付けた思考法</a></li>
+				<li><a href="/archive/taisetsu/" target="_blank">大切にしたこと</a></li>
+				<li><a href="/archive/seiko/" target="_blank">成功したこと</a></li>
+				<li><a href="/archive/sippai/" target="_blank">失敗したこと</a></li>
 				<li><a href="/archive/message/" target="_blank">後輩へのメッセージ</a></li>
 			</ul>
 			<h2>リンク集</h2>
