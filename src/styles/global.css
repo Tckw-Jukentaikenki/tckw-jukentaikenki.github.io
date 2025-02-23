@@ -62,19 +62,14 @@ h1 {
 h2 {
 /*	font-size: 1.5em;*/
 	font-size: 2.2500vw;
-	margin-top: 1em;
 }
 h3 {
 /*	font-size: 1em;*/
 	font-size: 2.0vw;
-	margin-top: 1.2em;
-/*	margin-bottom: 1.7em;*/
 }
 h4 {
 /*	font-size: 1.563em;*/
 	font-size: 1.7vw;
-	margin-top: 2em;
-/*	margin-bottom: 2em;*/
 }
 h5 {
 /*	font-size: 1.25em;*/
@@ -86,15 +81,6 @@ h5 {
 .post{
 	font-size: 2.0rem;
 	padding: 0.5em;
-}
-ul :first-child{
-	margin-top: 0em;
-}
-ul :last-child{
-	margin-bottom: 0em;
-}
-ol {
-	margin: -2.0em 0 0.1em 0;
 }
 strong,
 b {
@@ -114,7 +100,7 @@ p {
 	margin-bottom: 1em;
 }
 .prose p { 
-	margin-bottom: -1em;
+	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
