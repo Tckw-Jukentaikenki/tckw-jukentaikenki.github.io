@@ -79,7 +79,8 @@ h5 {
 	font-size: 1.7vw;
 }
 .post{
-	font-size: 3.0vw;
+	font-size: 2.0rem;
+	padding: 0.5em;
 }
 strong,
 b {
@@ -98,8 +99,8 @@ a:checked{
 p {
 	margin-bottom: 1em;
 }
-.prose p {
-	margin-bottom: 2em;
+.prose p { 
+	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
