@@ -9,6 +9,7 @@ import node from '@astrojs/node';
 export default defineConfig({
     site: 'https://tckw-jukentaikenki.github.io',
     integrations: [mdx(), sitemap()],
+    output: 'server',
     // integrations: [mdx(), sitemap(), auth()],
     // adapter: node({
     //     mode: 'standalone',
