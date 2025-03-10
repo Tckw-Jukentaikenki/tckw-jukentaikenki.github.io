@@ -76,6 +76,31 @@ h5 {
 /*	font-size: 1.25em;*/
 	font-size: 1.5vw;
 }
+.data ul{
+		margin-top: 0em;
+}
+.message ul{
+	margin-top: 0em;
+}
+.seiko ul{
+	margin-top: 0em;
+}
+.siboko ul{
+	margin-top: 0em;
+}
+.sikoho ul{
+	margin-top: 0em;
+}
+.sippai ul{
+	margin-top: 0em;
+}
+.special ul{
+	margin-top: 0em;
+}
+.taisetsu ul{
+	margin-top: 0em;
+}
+
 .title{
 	font-size: 1.7vw;
 }
