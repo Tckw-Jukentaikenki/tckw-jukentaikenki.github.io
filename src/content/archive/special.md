@@ -3,6 +3,7 @@ title: '特殊な受験形態について'
 description: '特殊なやつ'
 heroImage: '/kokuban.jpg'
 ---
+<div class="special">
 
 ## 目次
 
@@ -279,3 +280,4 @@ downなし。
 ### 77期
 
 -->
+</div>

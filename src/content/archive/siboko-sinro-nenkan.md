@@ -3,6 +3,7 @@ title: '志望校・進路と年間の勉強'
 description: 'カレンダー'
 heroImage: '/akamon.jpg'
 ---
+<div class="siboko">
 
 ## 目次
 
@@ -2548,3 +2549,4 @@ IAIIB<br>
 ## 77期
 
 -->
+</div>

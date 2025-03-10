@@ -3,6 +3,7 @@ title: '大切にしたこと'
 description: '大切'
 heroImage: '/list.png'
 ---
+<div class="taisetsu">
 
 ## 目次
 
@@ -273,3 +274,4 @@ heroImage: '/list.png'
 ## 77期
 
 -->
+</div>

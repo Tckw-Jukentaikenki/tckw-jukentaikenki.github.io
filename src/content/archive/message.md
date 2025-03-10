@@ -3,6 +3,7 @@ title: '後輩へのメッセージ'
 description: 'メッセージ'
 heroImage: '/shosho.jpg'
 ---
+<div class="message">
 
 ## 目次
 
@@ -308,3 +309,4 @@ heroImage: '/shosho.jpg'
 ## 77期
 
 -->
+</div>
