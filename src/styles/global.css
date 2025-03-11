@@ -76,29 +76,76 @@ h5 {
 /*	font-size: 1.25em;*/
 	font-size: 1.5vw;
 }
-.data ul{
+.data {
+	ul {
 		margin-top: 0em;
+	}
+	p {
+		margin-top: 0em;
+	}
 }
-.message ul{
-	margin-top: 0em;
+.siboko {
+	ul {
+		margin-top: -0.5em;
+	}
+	ol {
+		margin-top: 0em;
+	}
 }
-.seiko ul{
-	margin-top: 0em;
+.special { 
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -1.0em;
+	}
+	ul :first-child {
+		margin-top: 0.0em;
+	}
 }
-.siboko ul{
-	margin-top: 0em;
+.sikoho {
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
 }
-.sikoho ul{
-	margin-top: 0em;
+.taisetsu {
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
 }
-.sippai ul{
-	margin-top: 0em;
+.seiko {
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
 }
-.special ul{
-	margin-top: 0em;
+.sippai {
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
 }
-.taisetsu ul{
-	margin-top: 0em;
+.message {
+	ul {
+		margin-top: -0.3em;
+	}
+	ol {
+		margin-top: -1em;
+		margin-bottom: 0.5em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
 }
 
 .title{
