@@ -5,9 +5,9 @@ heroImage: '/list.png'
 ---
 <div class="sippai">
 
-<details><summary>クリックで展開</summary>
-
 ## 目次
+
+<details><summary>クリックで展開</summary>
 
 - [目次](#目次)
 - [74期](#74期)
