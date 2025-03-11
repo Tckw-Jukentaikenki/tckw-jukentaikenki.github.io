@@ -3,6 +3,7 @@ title: '受験で身に付けた思考法'
 description: '思考法'
 heroImage: '/list.png'
 ---
+<div class="sikoho">
 
 ## 目次
 
@@ -239,3 +240,4 @@ heroImage: '/list.png'
 ## 77期
 
 -->
+</div>

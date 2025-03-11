@@ -3,6 +3,7 @@ title: '失敗したこと'
 description: '失敗'
 heroImage: '/list.png'
 ---
+<div class="sippai">
 
 <details><summary>クリックで展開</summary>
 
@@ -325,3 +326,4 @@ heroImage: '/list.png'
 ## 77期
 
 -->
+</div>
