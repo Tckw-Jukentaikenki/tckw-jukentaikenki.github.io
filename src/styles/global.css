@@ -85,6 +85,9 @@ h5 {
 	}
 }
 .siboko {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.5em;
 	}
@@ -92,9 +95,9 @@ h5 {
 		margin-top: 0em;
 	}
 }
-.special { 
+.special {
 	details ul{
-		margin-top: 0em;
+		margin-top: 0.0em;
 	}
 	ul {
 		margin-top: -1.0em;
@@ -104,6 +107,9 @@ h5 {
 	}
 }
 .sikoho {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.3em;
 	}
@@ -112,6 +118,9 @@ h5 {
 	}
 }
 .taisetsu {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.3em;
 	}
@@ -120,6 +129,9 @@ h5 {
 	}
 }
 .seiko {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.3em;
 	}
@@ -128,6 +140,9 @@ h5 {
 	}
 }
 .sippai {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.3em;
 	}
@@ -136,6 +151,9 @@ h5 {
 	}
 }
 .message {
+	details ul{
+		margin-top: 0em;
+	}
 	ul {
 		margin-top: -0.3em;
 	}
@@ -147,7 +165,9 @@ h5 {
 		margin-top: -0.3em;
 	}
 }
-
+details{
+	margin-bottom: 0.5em;
+}
 .title{
 	font-size: 1.7vw;
 }
