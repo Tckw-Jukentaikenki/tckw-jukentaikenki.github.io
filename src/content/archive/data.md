@@ -3,6 +3,7 @@ title: '受験データ'
 description: 'データ'
 heroImage: '/todai.jpg'
 ---
+<div class="data">
 
 ## 目次
 
@@ -150,7 +151,7 @@ heroImage: '/todai.jpg'
 
 ![74-17](/data/74/74-17.jpg)
 
-## 物理
+#### 物理
 
 ![74-18](/data/74/74-18.jpg)
 
@@ -415,3 +416,4 @@ heroImage: '/todai.jpg'
 
 
 -->
+</div>

@@ -39,7 +39,8 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+/*	width: 720px;*/
+	width: 90%;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
@@ -75,11 +76,104 @@ h5 {
 /*	font-size: 1.25em;*/
 	font-size: 1.5vw;
 }
+.data {
+	ul {
+		margin-top: 0em;
+	}
+	p {
+		margin-top: 0em;
+	}
+}
+.siboko {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.5em;
+	}
+	ol {
+		margin-top: 0em;
+	}
+}
+.special {
+	details ul{
+		margin-top: 0.0em;
+	}
+	ul {
+		margin-top: -1.0em;
+	}
+	ul :first-child {
+		margin-top: 0.0em;
+	}
+}
+.sikoho {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
+}
+.taisetsu {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
+}
+.seiko {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
+}
+.sippai {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.3em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
+}
+.message {
+	details ul{
+		margin-top: 0em;
+	}
+	ul {
+		margin-top: -0.3em;
+	}
+	ol {
+		margin-top: -1em;
+		margin-bottom: 0.5em;
+	}
+	p {
+		margin-top: -0.3em;
+	}
+}
+details{
+	margin-bottom: 2.0em;
+}
 .title{
 	font-size: 1.7vw;
 }
 .post{
-	font-size: 3.0vw;
+	font-size: 2.0rem;
+	padding: 0.5em;
 }
 strong,
 b {
@@ -98,8 +192,8 @@ a:checked{
 p {
 	margin-bottom: 1em;
 }
-.prose p {
-	margin-bottom: 2em;
+.prose p { 
+	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
@@ -148,6 +242,9 @@ td {
 	border: 1px solid black;
 	padding: 8px;
 	text-align: left;
+}
+table tr td:first-child{
+	white-space: nowrap;
 }
 @media (max-width: 720px) {
 	body {

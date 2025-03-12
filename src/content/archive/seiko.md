@@ -3,6 +3,7 @@ title: '成功したこと'
 description: '成功'
 heroImage: '/list.png'
 ---
+<div class="seiko">
 
 ## 目次
 
@@ -311,3 +312,4 @@ E判定でも出願したこと。
 ## 77期
 
 -->
+</div>
