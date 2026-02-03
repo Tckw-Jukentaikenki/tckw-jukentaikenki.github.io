@@ -9,13 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.1.0",
-    "@astrojs/node": "^9.1.2",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/node": "^9.5.2",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
     "@auth/core": "^0.37.4",
     "@prisma/client": "^6.4.1",
-    "astro": "^5.4.2",
+    "astro": "^5.17.1",
     "auth-astro": "^4.2.0",
     "bcryptjs": "^3.0.2",
     "jsonwebtoken": "^9.0.2",
